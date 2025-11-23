@@ -5,7 +5,7 @@ A small python app to find Indian recipes using the ingredients you have. Type y
 Features:
 Search recipes by ingredients
 Top 3 matches with score
-Shows ingredients, process, and image
+Shows ingredients and process
 
 How to Use:
 1. Run the app:
@@ -15,13 +15,12 @@ How to Use:
 4. Click any recipe button to see full details.
 
 Quick setup:
-Make sure Python3 is installed.
-Install Pillow to see images: pip3 install pillow
-Keep the images folder with recipe code in the project.
+Make sure Python3 is installed (tkinter comes pre installed)
+Download 'recipe finder.py'
+Run the program.
 
 Notes:
-If an image is missing, it will show "Image not found"
-You can add more recipes in the RECIPES list in 
+You can add more recipes in the RECIPES list in "recipe finder.py" file.
 Match score = number of keywords matched.
 
 License:

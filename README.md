@@ -15,9 +15,9 @@ How to Use:
 4. Click any recipe button to see full details.
 
 Quick setup:
-Make sure Python3 is installed (tkinter comes pre installed)
-Download 'recipe finder.py'
-Run the program.
+1.Make sure Python3 is installed (tkinter comes pre installed)
+2.Download 'recipe finder.py'
+3.Run the program.
 
 Notes:
 You can add more recipes in the RECIPES list in "recipe finder.py" file.

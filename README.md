@@ -9,7 +9,7 @@ Shows ingredients and process
 
 How to Use:
 1. Run the app:
-         python app.py
+         recipe finder.py
 2. Enter ingredients separated by commas (tomato, potato, oil).
 3. Click Find Recipes.
 4. Click any recipe button to see full details.
@@ -23,6 +23,12 @@ Notes:
 You can add more recipes in the RECIPES list in "recipe finder.py" file.
 Match score = number of keywords matched.
 
-License:
-Free to use and share. Enjoy cooking!
+Code details:
+1. Recipes are stored in a list of dictionaries (name, ingredient, steps).
+2. User ingredients are taken from the input box and split into a list.
+3. A small function checks which recipes match the entered ingredients.
+4. Tkinter is used for the GUI.
+5. Search button runs the match function and prints results.
+6. Messagebox is used for simple alerts.
+7. Code is kept easy so new recipes can be added anytime.
                     

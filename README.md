@@ -1,15 +1,28 @@
 # Ingredients-based-recipe-finder
-Find recipes based on the ingredients you have at home.
-A small python app to find Indian recipes using the ingredients you have. Type your ingredients and get top matching recipes with steps and images.
+
+Project title: 
+Ingredients based recipe finder
+
+Overview of the project :
+This is a small desktop app made using Python and Tkinter, where users can type ingredients they have at home and the app will try to find the top 3 matching Indian recipes.
+The purpose of this project is to give a very easy idea of how ingredient-based recipe searching works.
 
 Features:
-Search recipes by ingredients
-Top 3 matches with score
-Shows ingredients and process
+Search Indian recipes by writing ingredients.
+It will give top 3 matches with clickable buttons.
+Shows ingredients and process.
+
+
+Technologies/Tools used:
+Python 3
+Tkinter GUI Library
+ScrolledText widget
+Simple list based recipe database.
+
 
 How to Use:
 1. Run the app:
-         recipe finder.py
+         python recipe finder.py
 2. Enter ingredients separated by commas (tomato, potato, oil).
 3. Click Find Recipes.
 4. Click any recipe button to see full details.
@@ -17,9 +30,14 @@ How to Use:
 Quick setup:
 Make sure Python3 is installed (tkinter comes preinstalled with python)  and Download 'recipe finder.py' and then Run the program.
 
-Notes:
-You can add more recipes in the RECIPES list in "recipe finder.py" file.
-Match score = number of keywords matched.
+
+Instruction for testing:
+1.Try searching with few different ingredient combos and see if results coming properly.
+2.Check if Top 3 recipes are showing and buttons are working fine.
+3.Click on each recipe and confirm the full details is opening correctly.
+4.Give some totally unmatched ingredients to make sure the “no recipe found” message is working.
+5.Restart the app once to see it running smoothly without any random error.
+
 
 Code details:
 1. Recipes are stored in a list of dictionaries (name, ingredient, steps).
